@@ -18,12 +18,11 @@ const Navbar: React.FC = () => {
 	];
 
 	return (
-		<nav className="flex items-center justify-between px-8 py-5 bg-white shadow-md">
+		<nav className="flex items-center justify-between px-8 py-2 bg-white shadow-md">
 			{/* Logo */}
 			<div className="flex items-center space-x-4">
 				<img src="/file.svg" alt="Logo" className="w-8 h-8" />
 			</div>
-
 			{/* Navigation Links */}
 			<div className="flex space-x-6">
 				{navLinks.map((link) => (

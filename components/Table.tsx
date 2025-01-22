@@ -24,7 +24,7 @@ const Table: React.FC<TableProps> = ({ data }) => {
   return (
     <div className="bg-white shadow-md rounded-lg">
       <div
-        className="overflow-x-auto overflow-y-auto max-h-[500px] rounded-lg"
+        className="overflow-x-auto overflow-y-auto max-h-[650px] rounded-lg"
         style={{ maxWidth: "100%" }}
       >
         <ShadcnTable className="min-w-full">

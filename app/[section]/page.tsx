@@ -5,6 +5,7 @@ import Table from "../../components/Table";
 import {
 	documentManagementData,
 	qualityAuditData,
+	riskManagmentData,
 } from "../../types/DummyData";
 import { Button } from "@/components/ui/button"; // ShadCN Button
 import { Input } from "@/components/ui/input"; // ShadCN Input
@@ -22,6 +23,10 @@ const SectionPage = () => {
 		case "quality-audit-management":
 			dataToDisplay = qualityAuditData;
 			contentTitle = "Quality Audit Management";
+			break;
+		case "risk-management":
+			dataToDisplay = riskManagmentData;
+			contentTitle = "Risk Management";
 			break;
 		default:
 			dataToDisplay = [];
